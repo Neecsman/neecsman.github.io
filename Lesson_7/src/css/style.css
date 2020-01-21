@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5;
+}
+.header {
+    padding: 85px 0 60px 0;
+    text-align: center;
+    font-size: 24px;
+}
+.header span   {
+    display: block;
+    font-weight: 300;
+}
+
+.header strong {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.mine {
+    text-align: center;
+}
+.video, .form {
+     display: inline-block;
+     vertical-align: top;
+}
+
+.form {
+     border: 5px solid #2727d9;
+     padding: 27px 20px 27px 20px;
+     margin-left: 30px;
+     width: 350px;
+     height: 300px;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+input {
+     display: block;
+     margin-top: 10px;
+     width: 300px;
+     height: 50px;
+     padding: 17px 12px;
+     font-size: 18px;
+     color: #999999;
+     outline: none;
+}
+
+.btn {
+     width: 300px;
+     height: 65px;
+     border: none;
+     background-color: #3c3cdd;
+     color: #ffffff;
+     font-size: 18px;
+     display: block;
+     margin: 10px auto;
+}
+
+.header-feature {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #333333;
+    margin-top: 150px;
+}
+.feature {
+    text-align: center;
+    margin: 80px 80px;
+
+}
+.col {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 50px;
+    width: 120px;
+
+}
+
+.col p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333
+}
+
+.header-clients {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 95px;
+    margin-bottom: 65px;
+    
+}
+
+.clients-box {
+    text-align: center;
+}
+
+.our-clients {
+    display: inline-block; 
+    margin: 10px 15px;
+}

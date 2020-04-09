@@ -17,3 +17,5 @@
 [Урок № 10](https://github.com/Neecsman/neecsman.github.io/tree/master/Lesson_10/src) - Препроцессоры less и sass. 
 
 [Урок № 13](https://neecsman.github.io/Lesson-13/src) - Perfect Pixel. 
+
+[Модуль 5. Практика. Часть 1.](https://neecsman.github.io/Lesson_5/1/src) - Подготовка файлов. Верстка шапки сайта.

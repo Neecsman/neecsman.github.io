@@ -1,0 +1,56 @@
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+
+/* Fonts */
+.os {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@font-face { 
+    font-family: "BebasThin";
+    src: url("../fonts/BebasThin/BebasThin.eot");
+    src: url("../fonts/BebasThin/BebasThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BebasThin/BebasThin.woff") format("woff"),
+    url("../fonts/BebasThin/BebasThin.ttf") format("truetype");
+    font-style: normal;
+	font-weight: 100;
+}	
+
+.bebas {
+	font-family: "BebasThin";
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.eot');
+    src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lato {
+	font-family: 'Lato';
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
+
+
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}

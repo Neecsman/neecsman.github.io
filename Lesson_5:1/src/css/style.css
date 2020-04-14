@@ -180,6 +180,9 @@ section {
   .main-title {
     margin-top: 14rem;
   }
+  .main-title h1 {
+    font-size: 3rem;
+  }
   .header {
     text-align: center;
   }

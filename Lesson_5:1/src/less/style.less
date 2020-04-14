@@ -80,6 +80,16 @@ body {
     .reg();
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+button, input, a {
+    &:focus {
+    outline: none;   
+    }
+}
+
 .button {  
     .sem();
     padding: 1rem 2rem;
@@ -89,6 +99,11 @@ body {
     color: @light;
     text-transform: uppercase;
     border: none;
+    transition: all 0.2s;
+    &:hover {
+        cursor: pointer;
+        background-color: darken(@btn-color, 5%);
+    }
 }
 
 // Typography
@@ -99,7 +114,6 @@ section {
 // main
 
 .main {
-
     padding: 3rem 0 5rem;
     background: #fff url(../img/main-bg.jpg) center center no-repeat;
     background-size: cover;
@@ -137,6 +151,7 @@ section {
         .bold();
     }
     &-form {
+        margin-top: 1rem;
         padding: 4.6rem 5rem;
         background-color: @light;
         text-align: center;
@@ -202,3 +217,35 @@ section {
     color: @text;
 }
 
+
+
+@media (max-width: 991px) {
+    .main {
+        background-position: top right;
+    }
+    .phone-block {
+        text-align: center;
+    }
+    .main-title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .main-content {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        background-position: top left;
+    }
+    .main-title {
+        margin-top: 14rem;
+    }
+    .header {
+        text-align: center;
+    }
+    .wrap-block {
+        text-align: center;
+    }
+}

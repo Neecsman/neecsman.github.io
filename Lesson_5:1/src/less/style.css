@@ -33,6 +33,14 @@ html {
 body {
   font-family: "ProximaNovaReg", sans-serif;
 }
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
 .button {
   font-family: "ProximaNovaSem", sans-serif;
   padding: 1rem 2rem;
@@ -42,6 +50,11 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
 }
 section {
   padding: 10rem 0;
@@ -85,6 +98,7 @@ section {
   font-family: "ProximaNovaBold", sans-serif;
 }
 .main-form {
+  margin-top: 1rem;
   padding: 4.6rem 5rem;
   background-color: #ffffff;
   text-align: center;
@@ -142,4 +156,33 @@ section {
   height: 7rem;
   line-height: 7rem;
   color: #1a1820;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .main-title {
+    margin-top: 14rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
 }

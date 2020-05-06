@@ -27,3 +27,5 @@
 [Модуль 5. Урок № 15](https://neecsman.github.io/Lesson_5:15/) - Псевдоклассы и псевдоэлементы.
 
 [Модуль 5. Практика 3](https://neecsman.github.io/Lesson_5:1/src/) - Адаптив и медиазапросы.
+
+[Модуль 5. Урок № 16](https://neecsman.github.io/Lesson_5:16/src/) - Слайдер фоторама.

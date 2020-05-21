@@ -111,6 +111,14 @@ section {
     padding: 10rem 0;
 }
 
+.section-header {
+    margin: 2rem 0 13rem;
+    .bold();
+    font-size: 3.6rem;
+    text-align: center;
+    
+}
+
 // main
 
 .main {
@@ -217,7 +225,58 @@ section {
     color: @text;
 }
 
+//Оформление секции с преимуществами
+.feauters {
+    &-block {
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+            .bold();
+            margin-bottom: 3.5rem;
+        }
+        p {
+            display: inline-block;
+            width: 80%;
+            font-size: 1.4rem;
+        }
+    }
+    &-img {
+        height: 8rem;
+        margin-bottom: 3rem;
+        img {
+            display: block;
+            margin: 0 auto;    
+        }
+    }
+}
 
+.slick-active {
+    outline: none;
+}
+
+.arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 99;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.prev {
+    left: 0;
+    background: url(../img/left-arrow.svg) center no-repeat;
+    background-size: 70%;
+}
+.next {
+    right: 0;
+    background: url(../img/right-arrow.svg) center no-repeat;
+    background-size: 70%;
+}
+
+
+//Медиа запросы
 
 @media (max-width: 991px) {
     .main {
@@ -241,6 +300,9 @@ section {
     }
     .main-title {
         margin-top: 14rem;
+        h1 {
+            font-size: 3rem;
+        }
     }
     .header {
         text-align: center;

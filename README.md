@@ -31,3 +31,5 @@
 [Модуль 5. Урок № 16](https://neecsman.github.io/lesson_5:16/src/) - Слайдер фоторама.
 
 [Модуль 5. Практика 4](https://neecsman.github.io/Lesson_5:1/src/) - Блок с преимуществами.
+
+[Модуль 5. Урок 17](https://neecsman.github.io/Lesson 5:17/) - Модальное окно на bs4.

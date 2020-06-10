@@ -35,3 +35,7 @@
 [Модуль 5. Урок 17](https://neecsman.github.io/Lesson%205:17/) - Модальное окно на bs4.
 
 [Модуль 5. Практика 5](https://neecsman.github.io/Lesson_5:1/src/) - Модальное окно на сайте jQuery.
+
+[Модуль 5. Урок 18](https://neecsman.github.io/Lesson-5:18/tabs/src/) - Табы.
+
+[Модуль 5. Урок 18](https://neecsman.github.io/Lesson-5:18/accordion/src/) - Аккордеон.

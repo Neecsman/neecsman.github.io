@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Табы и аккардеоны</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+      <div id="js-btn" class="btn-tab">
+        <button >Войти</button>
+      </div>
+      <div id="myModal" class="modal">
+             <!-- Обертка  -->
+        <div class="form">
+          <!-- Контейнер самой формы -->
+          <div class="form-box">
+            <!-- Вкладки -->
+            <div class="form-box-nav">
+              <ul>
+                <li><a class="form-tab js-form-tab active" data-tab="1" href="#tab-1">Вход</a></li>
+                <li><a class="form-tab js-form-tab" data-tab="2" href="#tab-2">Регистрация</a></li>
+              </ul>
+            </div>
+            <!-- Форма входа -->
+            <div class="form-box-items">
+              <div id="cls">
+                <span>&times;</span>
+              </div>
+              <form class="form-box-items-tab js-form-tab-items active" data-tab="1">
+                <input type="text" placeholder="Ваше имя">
+                <input type="password" placeholder="Пароль">
+                <a href="#">Забыли пароль?</a>
+                <button class="form-btn">Войти</button>
+                  <div class="recover">
+                    <input type="checkbox">
+                    <label>Напомнить мне</label>
+                  </div>
+              </form>
+              <!-- Форма регистрации -->
+              <form class="form-box-items-tab js-form-tab-items" data-tab="2">
+                <input type="email" placeholder="Ваш E-mail адрес">
+                <input type="text" placeholder="Введите ваше имя">
+                <input type="password" placeholder="Введите пароль">
+                <button class="form-btn">Регистрация</button>
+                
+                <div class="recover">
+                  <input type="checkbox">
+                  <label>Ознакомлен и принимаю <a href="#">условия регистрации</a></label>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <script>
+
+      // Это на чистом JS
+            //Таб
+      //       var jsTriggers = document.querySelectorAll('.js-form-tab'),
+      //     jsContents = document.querySelectorAll('.js-form-tab-items');
+
+      // jsTriggers.forEach(function(trigger) {
+      //   trigger.addEventListener('click', function() {
+      //       var id = this.getAttribute('data-tab'),
+      //           content = document.querySelector('.js-form-tab-items[data-tab="'+id+'"]'),
+      //           activeTrigger = document.querySelector('.js-form-tab.active'),
+      //           activeContent = document.querySelector('.js-form-tab-items.active');
+
+      //       activeTrigger.classList.remove('active'); // 1
+      //       trigger.classList.add('active'); // 2
+            
+      //       activeContent.classList.remove('active'); // 3
+      //       content.classList.add('active'); // 4
+      //   });
+      // });
+
+      // //         //Модальное окно
+      //   var modal = document.getElementById('myModal');
+      //   var btn = document.getElementById('js-btn');
+      //   var cls = document.getElementById('cls')
+
+      //   btn.onclick = function() {modal.style.display = "block";}
+
+      //   cls.onclick = function() {modal.style.display = "none"}
+
+      //   window.onclick = function() {
+      //     if (event.target == modal) {
+      //       modal.style.display = "none";
+      //     }
+      //   }
+
+  // Это на jQ
+  $(document).ready(function($) {
+	$('#js-btn').click(function() {
+		$('#myModal').fadeIn();
+		return false;
+	});	
+	
+	$('#cls').click(function() {
+		$(this).parents('#myModal').fadeOut();
+		return false;
+	});		
+ 
+	$(document).keydown(function(e) {
+		if (e.keyCode === 27) {
+			e.stopPropagation();
+			$('#myModal').fadeOut();
+		}
+	});
+	
+	$('#myModal').click(function(e) {
+		if ($(e.target).closest('.form').length == 0) {
+			$(this).fadeOut();					
+		}
+	});
+});
+
+
+$('.js-form-tab').click(function() {
+   var id = $(this).attr('data-tab'),
+       content = $('.js-form-tab-items[data-tab="'+ id +'"]');
+   
+   $('.js-form-tab.active').removeClass('active'); // 1
+   $(this).addClass('active'); // 2
+   
+   $('.js-form-tab-items.active').removeClass('active'); // 3
+   content.addClass('active'); // 4
+});
+
+
+    </script>
+  </body>
+</html>

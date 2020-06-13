@@ -39,3 +39,6 @@
 [Модуль 5. Урок 18](https://neecsman.github.io/Lesson-5:18/tabs/src/) - Табы.
 
 [Модуль 5. Урок 18](https://neecsman.github.io/Lesson-5:18/accordion/src/) - Аккордеон.
+
+
+[Модуль 5. Практика 6](https://neecsman.github.io/Lesson_5:1 (price)/src/) - Верстка блока с ценами.

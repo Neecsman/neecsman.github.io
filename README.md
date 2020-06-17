@@ -43,3 +43,6 @@
 [Модуль 5. Практика 6](https://neecsman.github.io/Lesson_5:1(price)/src/) - Верстка блока с ценами.
 
 [Модуль 6. Практика 7](https://neecsman.github.io/Lesson_5:1(feedback)/src/) - Верстка блока с отзывами.
+
+[Модуль 6. Урок 20](https://neecsman.github.io/Lesson_5:20(video)/src/) - Видео фон для сайта.
+

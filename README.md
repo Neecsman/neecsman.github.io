@@ -46,4 +46,7 @@
 
 [Модуль 6. Урок 20](https://neecsman.github.io/Lesson_5:20(video)/src/) - Видео фон для сайта.
 
-[Модуль 6. Практика 8](https://neecsman.github.io/Lesson_5:1(feedback-form)/src/) - Форма блока с отзывами
+[Модуль 6. Практика 8](https://neecsman.github.io/Lesson_5:1(feedback-form)/src/) - Форма блока с отзывами.
+
+[Модуль 6. Урок 21](https://neecsman.github.io/Parallax/) - Parallax.
+

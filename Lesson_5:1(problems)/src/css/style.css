@@ -1,0 +1,589 @@
+@font-face {
+  font-family: 'ProximaNovaLt';
+  src: url('../fonts/ProximaNova/ProximaNova-Light.eot');
+  src: url('../fonts/ProximaNova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/ProximaNova-Light.woff2') format('woff2'), url('../fonts/ProximaNova/ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova/ProximaNova-Light.ttf') format('truetype'), url('../fonts/ProximaNova/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaSem';
+  src: url('../fonts/ProximaNova/ProximaNova-Semibold.eot');
+  src: url('../fonts/ProximaNova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/ProximaNova-Semibold.woff2') format('woff2'), url('../fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff'), url('../fonts/ProximaNova/ProximaNova-Semibold.ttf') format('truetype'), url('../fonts/ProximaNova/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaReg';
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNova/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "ProximaNovaReg", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  font-family: "ProximaNovaSem", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+.form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  padding: 1.7rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.form label {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.3rem;
+  color: #6d6d6d;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+.form-btn {
+  display: block;
+  font-size: 1.6rem;
+  font-family: "ProximaNovaSem", sans-serif;
+  width: 100%;
+  height: 5.5rem;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 13rem;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
+.section-header p {
+  font-size: 1.6rem;
+  font-family: "ProximaNovaReg", sans-serif;
+}
+.section-header-light {
+  margin: 0;
+  color: #ffffff;
+  margin: 12rem 0 4.9rem 0;
+}
+.section-header-light p {
+  font-size: 1.7rem;
+  font-family: "ProximaNovaReg", sans-serif;
+}
+.section-header-active {
+  margin-bottom: 0;
+}
+.section-header-active h2 {
+  color: #358015;
+}
+strong {
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.main {
+  padding: 3rem 0 5rem;
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 10.4rem;
+}
+.main-content h1 {
+  margin-bottom: 5.3rem;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.main-subtitle {
+  margin-bottom: 6rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 4rem;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #46b814;
+  color: #ffffff;
+}
+.main span strong {
+  font-size: 3rem;
+}
+.main-trigger {
+  display: block;
+  margin-top: 3.7rem;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.main-form {
+  margin-top: 1rem;
+  padding: 4.6rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-form-header {
+  font-size: 1.7rem;
+  margin-bottom: 3.6rem;
+}
+.main-form small {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+.feauters-block {
+  text-align: center;
+}
+.feauters-block h3 {
+  font-size: 2rem;
+  font-family: "ProximaNovaBold", sans-serif;
+  margin-bottom: 3.5rem;
+}
+.feauters-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.feauters-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.feauters-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.price {
+  padding-top: 0;
+  background: #46b814 url(../img/prices/prices-bg.png) center;
+}
+.price h1 {
+  color: #ffffff;
+}
+.price-header-btn {
+  margin-top: 12.2rem;
+  font-size: 1.7rem;
+  padding: 2rem 3rem;
+  font-family: "ProximaNovaReg", sans-serif;
+}
+.price-button {
+  text-align: right;
+}
+.price-block {
+  padding: 5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 14px 21px 0 rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+.price-block h4 {
+  font-size: 1.9rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.price-block img {
+  display: inline-block;
+  width: 100%;
+  max-width: 30rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.price-block span {
+  display: block;
+}
+.price-block button {
+  padding: 2.5rem 5.5rem;
+  font-size: 18px;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 1.9rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.price-list {
+  padding: 0;
+  min-height: 15rem;
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.price-list li:before {
+  content: " ";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../img/prices/price-checked.svg) no-repeat center;
+  background-size: 100%;
+  margin-right: 0.8rem;
+}
+.feedback {
+  position: relative;
+  background: url(../img/feedback/feetback-bg.png) center no-repeat;
+  background-size: cover;
+}
+.feedback-text {
+  position: relative;
+  display: block;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 15px;
+  line-height: 18px;
+  border: 2px solid #46b814;
+}
+.feedback-text:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: -2rem;
+  left: 4rem;
+  background-color: #ffffff;
+  border: 2px solid #46b814;
+  border-bottom: none;
+  border-top-right-radius: 100%;
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-slider {
+  padding: 5.5rem 6rem;
+  background-color: #ffffff;
+  box-shadow: 6px 10px 18px 0 rgba(0, 0, 0, 0.11);
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  border: none;
+  background-color: #46b814;
+}
+.feedback-slider-btn img {
+  width: 50%;
+}
+.feedback-slider_item p {
+  font-size: 16px;
+}
+.feedback-form {
+  margin-top: 6rem;
+  padding: 5rem 14rem;
+  background-color: #ffffff;
+}
+.feedback-form h3 {
+  text-align: center;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.feedback-form label {
+  transform: translate(-50%, 6px);
+}
+.feedback-btn {
+  max-width: 25rem;
+  margin: auto;
+}
+.hand {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 25%;
+}
+.media {
+  margin-top: 5.5rem;
+}
+.scheme {
+  background: url(../img/scheme/scheme-bg.png) bottom right no-repeat;
+  background-size: 65rem;
+  padding-bottom: 0;
+}
+.scheme .section-header {
+  margin-bottom: 7.5rem;
+}
+.scheme-block h3 {
+  margin-top: 4.3rem;
+  margin-bottom: 2.7rem;
+  font-size: 2.2rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.scheme-block p {
+  font-size: 1.5rem;
+  font-family: "ProximaNovaReg", sans-serif;
+  margin-bottom: 7rem;
+}
+.all-inclusive {
+  background: #f5f5f5;
+}
+.all-inclusive .circle {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: #358015;
+  border-radius: 50%;
+}
+.all-inclusive .circle-border {
+  display: inline-block;
+  border: 2px solid #358015;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  padding: 2px;
+  text-align: center;
+  line-height: 4rem;
+  color: #ffffff;
+  font-family: "ProximaNovaBold", sans-serif;
+  font-size: 1.6rem;
+}
+.all-inclusive h5 {
+  font-size: 1.6rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.all-inclusive p {
+  font-size: 1.3rem;
+}
+.problems-list {
+  border: 3px solid black;
+  margin-bottom: 3rem;
+  padding: 3rem 4rem ;
+  min-height: 32rem;
+  max-height: 32rem;
+}
+.problems-list h4 {
+  margin-bottom: 3rem;
+  font-size: 2.1rem;
+  font-family: "ProximaNovaBold", sans-serif;
+}
+.problems-list li {
+  position: relative;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  list-style: none;
+}
+.problems-list li::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+  left: -3rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.problems-list_bad {
+  border-color: #dddddd;
+}
+.problems-list_bad h4 {
+  color: #9f9f9f;
+}
+.problems-list_bad li {
+  margin-bottom: 4rem;
+}
+.problems-list_bad li::before {
+  background: url(../img/problems/cencel.svg) no-repeat;
+  background-size: 100%;
+}
+.problems-list_good {
+  border-color: #358015;
+}
+.problems-list_good li::before {
+  background: url(../img/problems/checked-symbol.png) no-repeat;
+  background-size: 100%;
+}
+.women {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.consult {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.consult-dialog {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  padding: 4rem 6rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.consult-close {
+  position: absolute;
+  top: -1.6rem;
+  right: -2rem;
+  width: 2rem;
+  border: none;
+  background: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.consult-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.consult-content h4 {
+  font-family: "ProximaNovaBold", sans-serif;
+}
+@media (max-width: 1199px) {
+  .price-block {
+    margin-top: 3rem;
+  }
+  .price-button {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .price-header-btn {
+    margin-top: 0;
+  }
+  .feedback-form {
+    padding: 3rem 3rem;
+  }
+  .fotorama {
+    margin-bottom: 3rem;
+  }
+  .women {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .price-block {
+    margin-top: 3rem;
+  }
+  .price-button {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .price-header-btn {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .main-title {
+    margin-top: 14rem;
+  }
+  .main-title h1 {
+    font-size: 2.5rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+}

@@ -52,4 +52,7 @@
 
 [Модуль 6. Практика 9](https://neecsman.github.io/Lesson_5:1(scheme-inclusive)/src/) - Схема и все включено.
 
+[Модуль 6. Урок 22](https://neecsman.github.io/neecsman.github.io/Lesson_22/src/) -  Карты.
+
+
 

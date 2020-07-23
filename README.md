@@ -54,5 +54,5 @@
 
 [Модуль 6. Урок 22](https://neecsman.github.io/neecsman.github.io/Lesson_22/src/) -  Карты.
 
-
+[Модуль 6. Практика 10](https://neecsman.github.io/Lesson_5:1(problems)/src/) - Проблемы и решения.
 

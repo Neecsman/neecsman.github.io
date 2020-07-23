@@ -50,3 +50,6 @@
 
 [Модуль 6. Урок 21](https://neecsman.github.io/Parallax/) - Parallax.
 
+[Модуль 6. Практика 9](https://neecsman.github.io/Lesson_5:1(scheme-inclusive)/src/) - Схема и все включено.
+
+
